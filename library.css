@@ -1,0 +1,38 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+
+/* navbar styles */
+
+    .navbar{
+    background-color: black;
+    color: white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+    .links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem
+    }
+
+    .links-container >li {
+        list-style: none;
+    }
+
+    .links-container >li >a {
+     text-decoration-line: none;
+      color: aliceblue;
+      font-size:medium;
+      font-weight: 400;
+
+    }
+
+/* end of navbar styles */
